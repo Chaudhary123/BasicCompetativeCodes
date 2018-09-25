@@ -1,0 +1,45 @@
+# BasicCompetativeCodes
+public class test extends a{
+      
+	 		public static void main(String[] args) {
+	 			
+        test t= new test();
+        t.m1();
+        t.m2();
+        t.m3();
+         t.m4();
+         }
+
+			@Override
+			void m1() {
+				// TODO Auto-generated method stub
+				System.out.println("m1 method");
+				
+			}
+
+			@Override
+			void m2() {
+				// TODO Auto-generated method stub
+				System.out.println("m2 method");
+			}
+
+			@Override
+			void m3() {
+				// TODO Auto-generated method stub
+				System.out.println("m3 method");
+			}
+			void m4(){
+				System.out.println("m4 method");
+			}
+ }
+abstract class a{
+	abstract void m1();
+	abstract void m2();
+	abstract void m3();
+	
+}
+#output-
+m1 method
+m2 method
+m3 method
+m4 method
